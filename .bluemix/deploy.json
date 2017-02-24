@@ -119,6 +119,7 @@
         "deploy-org",
         "deploy-space",
         "apic-user",
+	"deploy-suffix",
         "apic-pass",
         "shared-secret",
         "mysql-server-ipaddrs-us",
@@ -132,6 +133,13 @@
             "type": "validator",
             "url": "/devops/setup/bm-helper/helper.html"
         },
+	{
+            "type": "text",
+            "readonly": false,
+            "title": "Deployment suffix (to make hostnames unique)",
+            "key": "deploy-suffix"
+        },
+
         {
             "type": "text",
             "readonly": false,
